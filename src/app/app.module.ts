@@ -10,6 +10,7 @@ import { AddstudentComponent } from './addstudent/addstudent.component';
 import { ViewallstudentComponent } from './viewallstudent/viewallstudent.component';
 import { AddfacultyComponent } from './addfaculty/addfaculty.component';
 import { CollegedashboardComponent } from './collegedashboard/collegedashboard.component';
+import { FormsModule } from '@angular/forms';
 
 const appRoutes:Routes=[
   {
@@ -39,7 +40,8 @@ const appRoutes:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
