@@ -24,6 +24,9 @@ const appRoutes:Routes=[
   },
   {
     path:"collegedash",component:CollegedashboardComponent
+  },
+  {
+    path:"viewallstudent",component:ViewallstudentComponent
   }
 ]
 
