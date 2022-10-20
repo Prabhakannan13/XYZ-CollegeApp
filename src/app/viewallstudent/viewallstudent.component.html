@@ -7,16 +7,28 @@
                   <tr>
                     <th scope="col">Name</th>
                     <th scope="col">Roll No</th>
+                    <th scope="col">College</th>
                     <th scope="col">Department</th>
                     <th scope="col">DOB</th>
+                    <th scope="col">Blood Group</th>
+                    <th scope="col">Parent Name</th>
+                    <th scope="col">Parent Emailid</th>
+                    <th scope="col">Gaurdian Name</th>
+                    <th scope="col">Gaurdian Address</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr *ngFor="let i of viewData">
                     <td>{{i.name}}</td>
                     <td>{{i.rollno}}</td>
+                    <td>{{i.college}}</td>
                     <td>{{i.department}}</td>
                     <td>{{i.dob}}</td>
+                    <td>{{i.bloodgroup}}</td>
+                    <td>{{i.parentname}}</td>
+                    <td>{{i.parentemailid}}</td>
+                    <td>{{i.gaurdianname}}</td>
+                    <td>{{i.gaurdianaddress}}</td>
                   </tr>
                 </tbody>
               </table>
